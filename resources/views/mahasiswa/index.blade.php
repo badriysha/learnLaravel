@@ -24,7 +24,7 @@
                     @foreach($mahasiswa as $mhs)
                     <tr>
                         <th scope="col">{{ $loop->iteration }}</th>
-                        <td>{{ $mhs->name }}</td>
+                        <td>{{ $mhs->nama }}</td>
                         <td>{{ $mhs->nrp }}</td>
                         <td>{{ $mhs->email }}</td>
                         <td>{{ $mhs->jurusan }}</td>
